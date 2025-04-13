@@ -124,6 +124,12 @@
     </div>
 
     <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'script.php', true);
+        xhr.send();
+    </script>
+    
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('loader').style.display = 'flex';
             
